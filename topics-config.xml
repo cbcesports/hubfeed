@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Registro MESTRE de temas/assuntos do agregador de notícias.
+
+  COMO FUNCIONA:
+  - Cada <topic> tem um atributo "slug". O widget detecta sozinho em qual
+    Página do Blogger ele está (pela URL) e procura aqui o <topic> com o
+    slug correspondente.
+  - Exemplo: se a Página do Blogger tem a URL .../p/nintendo.html, o slug
+    detectado é "nintendo", e ele vai usar o <topic slug="nintendo"> abaixo.
+  - Para criar um assunto novo (ex: "Arc Raiders"):
+      1. Copie um bloco <topic> inteiro.
+      2. Troque o slug, o <label> (nome mostrado no topo do widget),
+         as <keywords> (usadas para filtrar sites gerais) e a lista de <source>.
+      3. Crie uma Página no Blogger com o MESMO slug na URL personalizada
+         (ver instruções no chat sobre como configurar o link da página).
+      4. Cole o MESMO código do widget (gadget-content.html) nessa Página,
+         sem alterar nada nele — ele vai detectar o assunto certo sozinho.
+
+  ATRIBUTOS de <source>:
+  - dedicated="true"  → site 100% dedicado ao assunto, todo item entra sem filtro.
+  - dedicated="false" → site geral, só entram itens cujo título/resumo batam
+                        com alguma palavra de <keywords>.
+-->
+<topics>
+
+  <topic slug="nintendo">
+    <label>NintendoFeed</label>
+    <keywords>nintendo,switch,mario,zelda,pokemon,pokémon,kirby,splatoon,joy-con,joycon,metroid,animal crossing,fire emblem,pikmin,xenoblade,donkey kong</keywords>
+
+    <source id="nlife" dedicated="true">
+      <name>Nintendo Life</name>
+      <url>https://www.nintendolife.com/feeds/news</url>
+    </source>
+    <source id="nevery" dedicated="true">
+      <name>Nintendo Everything</name>
+      <url>https://nintendoeverything.com/feed/</url>
+    </source>
+    <source id="nblast" dedicated="true">
+      <name>NintendoBlast</name>
+      <url>https://nintendoblast.com.br/feed/</url>
+    </source>
+    <source id="mnn" dedicated="true">
+      <name>My Nintendo News</name>
+      <url>https://mynintendonews.com/feed/</url>
+    </source>
+    <source id="perfn" dedicated="true">
+      <name>Perfectly Nintendo</name>
+      <url>https://perfectly-nintendo.com/feed/</url>
+    </source>
+    <source id="ign" dedicated="false">
+      <name>IGN</name>
+      <url>https://www.ign.com/rss/articles/feed</url>
+    </source>
+    <source id="poly" dedicated="false">
+      <name>Polygon</name>
+      <url>https://www.polygon.com/rss/index.xml</url>
+    </source>
+    <source id="euro" dedicated="false">
+      <name>Eurogamer</name>
+      <url>https://www.eurogamer.net/feed</url>
+    </source>
+    <source id="gspot" dedicated="false">
+      <name>GameSpot</name>
+      <url>https://www.gamespot.com/feeds/mashup/</url>
+    </source>
+  </topic>
+
+  <topic slug="arc-raiders">
+    <label>ArcRaidersFeed</label>
+    <keywords>arc raiders,arcraiders,embark studios,speranza,raiders</keywords>
+
+    <source id="arcsteam" dedicated="true">
+      <name>Steam News Hub</name>
+      <url>https://store.steampowered.com/feeds/news/app/1808500/</url>
+    </source>
+    <source id="archub" dedicated="true">
+      <name>Arc Raiders Hub</name>
+      <url>https://arcraidershub.com/feed/</url>
+    </source>
+    <source id="arcgg" dedicated="true">
+      <name>ArcRaiders.gg</name>
+      <url>https://arcraiders.gg/feed/</url>
+    </source>
+    <source id="pcgamer" dedicated="false">
+      <name>PC Gamer</name>
+      <url>https://www.pcgamer.com/rss/</url>
+    </source>
+    <source id="ign2" dedicated="false">
+      <name>IGN</name>
+      <url>https://www.ign.com/rss/articles/feed</url>
+    </source>
+    <source id="euro2" dedicated="false">
+      <name>Eurogamer</name>
+      <url>https://www.eurogamer.net/feed</url>
+    </source>
+  </topic>
+
+  <!-- Adicione mais assuntos aqui, seguindo o mesmo padrão -->
+
+</topics>
