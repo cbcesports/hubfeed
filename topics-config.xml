@@ -96,6 +96,21 @@
     </source>
   </topic>
 
+<topic slug="eshop">
+    <label>eShop Brasil</label>
+    <keywords>eshop,promoção,oferta,desconto,nintendo switch,jogos em promoção,esaj</keywords>
+
+    <source id="eshop-ofertas" dedicated="true">
+      <name>eShop Brasil Ofertas</name>
+      <url>https://deopromo.com.br/rss/nintendo-switch</url>
+    </source>
+    
+    <source id="nblast-promo" dedicated="false">
+      <name>NintendoBlast Promoções</name>
+      <url>https://nintendoblast.com.br/feeds/posts/default?q=promoção</url>
+    </source>
+  </topic>
+
   <!-- Adicione mais assuntos aqui, seguindo o mesmo padrão -->
 
 </topics>
