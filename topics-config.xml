@@ -179,7 +179,8 @@
       <url>https://www.gamesradar.com/rss/</url>
     </source>
   </topic>
-
+  
+<!-- Filmes -->
   <topic slug="filmes">
   <label>FilmesFeed</label>
   <keywords>filmes,cinema,lancamento,estreia,marvel,dc,oscar,netflix,hbo,prime video,disney+,crítica,resenha</keywords>
