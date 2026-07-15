@@ -180,6 +180,43 @@
     </source>
   </topic>
 
+  <topic slug="filmes">
+  <label>FilmesFeed</label>
+  <keywords>filmes,cinema,lancamento,estreia,marvel,dc,oscar,netflix,hbo,prime video,disney+,crítica,resenha</keywords>
+
+  <!-- Fontes nacionais -->
+  <source id="omelete-filmes" dedicated="true">
+    <name>Omelete Filmes</name>
+    <url>https://www.omelete.com.br/rss/cinema</url>
+  </source>
+  <source id="adorocinema-filmes" dedicated="true">
+    <name>AdoroCinema</name>
+    <url>https://www.adorocinema.com/rss/filmes.xml</url>
+  </source>
+  <source id="cinema-com-rapadura" dedicated="true">
+    <name>Cinema com Rapadura</name>
+    <url>https://cinemacomrapadura.com.br/feed/</url>
+  </source>
+
+  <!-- Fontes internacionais -->
+  <source id="hollywood-reporter" dedicated="true">
+    <name>The Hollywood Reporter</name>
+    <url>https://www.hollywoodreporter.com/feed/</url>
+  </source>
+  <source id="variety" dedicated="true">
+    <name>Variety</name>
+    <url>https://variety.com/feed/</url>
+  </source>
+  <source id="indiewire" dedicated="true">
+    <name>IndieWire</name>
+    <url>https://www.indiewire.com/feed/</url>
+  </source>
+  <source id="rottentomatoes" dedicated="false">
+    <name>Rotten Tomatoes</name>
+    <url>https://editorial.rottentomatoes.com/feed/</url>
+  </source>
+</topic>
+
   <!-- Adicione mais assuntos aqui, seguindo o mesmo padrão -->
 
 </topics>
